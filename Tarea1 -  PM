@@ -1,0 +1,10 @@
+//Este es el código del paso 1
+fun main() {
+    print("HelloUPIICSA")
+    print("¿Que pasa? - Haus-a-Holics")
+}
+//Este es el código del paso 2
+fun main() {
+    println("HelloUPIICSA")
+    println("¿Que pasa? - Haus-a-Holics")
+}
