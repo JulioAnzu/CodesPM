@@ -1,0 +1,12 @@
+//CÓDIGO DE TAREA 2 - VARIABLES Y TIPOS DE DATOS
+import kotlin.math.pow
+const val PI = 3.1416f
+fun main() {
+    val numeroDecimal = 8.3f
+    val perimetro = perimetro(numeroDecimal)
+    println("El tipo de dato numeroDecimal es ${numeroDecimal::class.simpleName}")
+    println("El perimetro del circulo es: $perimetro")
+}
+fun perimetro(numeroDecimal:Float): Float{
+    return PI*(2*numeroDecimal)
+}
